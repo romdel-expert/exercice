@@ -1,0 +1,124 @@
+
+
+
+
+	
+	
+	
+	
+	
+	
+		Dans le cadre de cet exercice qui consiste à prototyper ertaines opérations bancaires comme
+		
+		depot
+		retrait
+		consultation de solde
+		consultation de l'historigue du compte
+
+
+
+
+		A ces fonctionnalités sont ajoutées en option:
+
+		inscription d'un nouveau client
+		login
+		creation d'un nouveau compte
+
+
+
+
+
+
+		choix techniques
+
+		Developpement de 2 applications web
+		server: apach tomcat v10
+		Base de données nommée exokata: mysql contenant 3 tables
+		client (1 client peut avoir plusieurs acount)
+		acount (1 acount pour 1 client et 1 acount pour plusieurs trasactions)
+		bank_transaction (1 transaction pour 1 acount)
+
+
+		la connexion à la base de donnée est effectuée dans l'application exokata dans le fichier (exokata->src->main->resources->application.properties)
+
+		Service (exokata): Spring framwork (utilisation de springboot) : Java 16 (port d'ecoute 9090)
+
+
+		Client leger (ClientExoKata) : applcation web : jsp(html5, css3, javascript), angular (port d'ecoute 8080)
+
+		
+
+
+
+		
+	
+			
+				
+	
+	
+				
+	
+		
+	
+
+
+	
+
+
+	
+
+
+	
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
